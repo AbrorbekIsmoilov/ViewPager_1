@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Asosiy">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/music"
+        android:layout_width="334dp"
+        android:layout_height="66dp"
+        android:alpha="1"
+        android:backgroundTint="@color/purple_500"
+        android:text="Music book"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:cornerRadius="10dp"
+        android:textSize="18sp"
+        app:strokeWidth="2dp"
+        android:layout_marginBottom="20dp"
+       />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/geo"
+        android:layout_width="334dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="20dp"
+        android:alpha="1"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Axborot Portal"
+        app:cornerRadius="10dp"
+    />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/click"
+        android:layout_width="334dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="20dp"
+        android:alpha="1"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Click Tizimi"
+        app:cornerRadius="10dp"
+        />
+
+</LinearLayout>
